@@ -1,0 +1,18 @@
+# --- Core Application (Person 1) ---
+typer[all]     # For the command-line interface (CLI)
+pandas         # For the bonus 'analyze' command
+
+# --- Database & Storage (Person 2) ---
+gspread                  # For Google Sheets
+google-api-python-client # For Google Drive
+google-auth-oauthlib     # Helper for Google authentication
+packaging                # A hidden dependency for the Google libraries
+
+# --- AI & Scraping (Person 3) ---
+ollama         # The client to talk to your local AI
+requests       # For downloading website HTML
+beautifulsoup4 # For cleaning the HTML and getting text
+
+# --- Lead Discovery & PDF (Person 4) ---
+google-search-results # The SerpAPI client for finding leads
+weasyprint            # For creating the PDF portfolio from HTML
