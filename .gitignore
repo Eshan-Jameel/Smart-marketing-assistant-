@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+
+# Google Credentials & Tokens
+credentials.json
+client_secret.json
+token.json
+
+# Local test files
+dummy_test_portfolio.pdf
